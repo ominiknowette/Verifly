@@ -1,0 +1,15 @@
+.file {  /* Design Tokens */  --navy: #0f1923;  --gold: #c8922a;  --cream: #f5f0e8;}
+
+body {  font-family: 'Arial', sans-serif;  margin: 0;  padding: 0;  background-color: var(--cream);}
+
+h1, h2, h3, h4, h5, h6 {  color: var(--navy);}
+
+nav {  background-color: var(--navy);  padding: 10px;}
+
+.nav-link {  color: var(--gold);  text-decoration: none;  margin: 0 15px;}
+
+.hamburger {  display: none;  cursor: pointer;}
+
+@media (max-width: 768px) {  .hamburger {  display: block;  }
+  nav {  display: none;  }
+  .nav-active {  display: block;  }}
